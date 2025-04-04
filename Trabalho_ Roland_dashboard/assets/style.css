@@ -1,0 +1,46 @@
+/* Define o background da página */
+body {
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+    background-image: url("/assets/red.jpg"); /* URL da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição */
+}
+
+/* Estilo para centralizar o contêiner do dropdown */
+.dropdown-container {
+    text-align: center;
+    margin: auto;
+    width: 50%;  /* Ajusta a largura do contêiner */
+}
+
+/* Estilo para o dropdown */
+.dropdown {
+    width: 100%;  /* Faz o dropdown ocupar 100% da largura do contêiner */
+    padding: 10px;  /* Adiciona um pouco de espaço interno */
+    font-size: 16px;  /* Ajusta o tamanho da fonte */
+
+}
+
+/* Estilo para o título */
+.dashboard-title {
+    color: rgb(21, 5, 8);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;  /* Adiciona espaço abaixo do título */
+}
+
+/* Estilo para o parágrafo */
+.dashboard-description {
+    color: rgb(20, 7, 7);
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;  /* Adiciona espaço abaixo do parágrafo */
+}
+
+/* Estilo para a nuvem de palavras */
+.wordcloud-container {
+    text-align: center;
+    margin-top: 20px;
+}
